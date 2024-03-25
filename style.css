@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat" , sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#demo {
+visibility: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+
+
+}
+
+li {
+    list-style-type: none ;
+}
+
+#myName {
+    background: green;
+    color: white; 
+    text-indent: 10px; 
+    border-radius : 20px; 
+    font-size : 1.4rem; 
+    width: 600px;
+
+
+}
+
+#btn {
+  background: white;
+    width: 250px;
+    color : green ; 
+    border : 1px solid green ; 
+    padding: 10px;
+    margin: 20px ;
+    transform : scale(1); 
+    transform :rotate(180deg); 
+
+}
+
+#btn:hover {
+   transform : scale(1.2); 
+   border-radius : 50px ; 
+   transition : 0.5s ease-in; 
+   transform:rotate(0deg); 
+   background: green;
+   color :white; 
+   border : 1px solid white; 
+
+}
+
+p{
+    padding: 10px;
+    opacity : 0.2; 
+}
+
+p:hover {
+    opacity : 1 ; 
+    background: white;
+    border : 2px solid green; 
+    color : green ; 
+    margin-top : 30px; 
+    transition : 0.5s ease; 
+    margin-bottom : 30px; 
+    border-radius : 30px; 
+    text-align: center;
+     
+ }
+
+ p:focus {
+    border : 2px orange; 
+    color : blue ; 
+ }
